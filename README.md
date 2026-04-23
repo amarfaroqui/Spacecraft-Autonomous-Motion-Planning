@@ -188,19 +188,3 @@ pymoo
 poliastro
 seaborn
 optuna
-```
-
----
-
-## Challenges Faced
-
-- Balancing the reward function for effective and stable learning
-- Tuning Q-learning hyperparameters (α, γ, ε) for convergence
-- Ensuring environment randomness while maintaining reproducibility
-- Bridging the RL agent's Q-table policy to a deployable ML model
-
----
-
-## 👤 Author
-
-Developed at **PES University** as part of the ML Mini-Project (UE23CS352A).
