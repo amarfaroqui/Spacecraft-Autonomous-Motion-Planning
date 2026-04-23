@@ -1,10 +1,10 @@
-# 🚀 Spacecraft Autonomous Navigation using Reinforcement Learning
+# Spacecraft Autonomous Navigation using Reinforcement Learning
 
 > A Q-Learning based AI agent that navigates a spacecraft through a 2D asteroid field to reach a goal while avoiding obstacles.
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project demonstrates an **Autonomous Spacecraft Navigation System** using **Reinforcement Learning (Q-Learning)**. The spacecraft learns to navigate through an asteroid field safely, reaching its goal position while avoiding collisions with obstacles.
 
@@ -12,13 +12,13 @@ Developed as part of **UE23CS352A – Machine Learning Mini-Project** at **PES U
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Design and implement an AI agent that learns to move a spacecraft through a 2D grid-based asteroid field to reach a goal destination while avoiding obstacles, using Reinforcement Learning.
 
 ---
 
-## 🧠 Approach
+## Approach
 
 The environment is a **10×10 grid world** with:
 
@@ -37,7 +37,7 @@ A **Random Forest Classifier** is then trained on the Q-learning agent's decisio
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 spacecraft-rl/
@@ -71,7 +71,7 @@ spacecraft-rl/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Run these steps **in order**:
 
@@ -145,7 +145,7 @@ python src/gui/spacecraft_gui.py
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Value |
 |--------|-------|
@@ -158,7 +158,7 @@ The agent successfully navigates toward the goal, avoiding obstacles, and learns
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### `environment.py`
 Implements the `AsteroidEnvironment` class — a grid world with randomized obstacle placement, a fixed goal position, and step-based rewards.
@@ -174,7 +174,7 @@ A polished **Mission Control GUI** built with Tkinter — displays a live spacec
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 numpy
@@ -192,7 +192,7 @@ optuna
 
 ---
 
-## 📘 Challenges Faced
+## Challenges Faced
 
 - Balancing the reward function for effective and stable learning
 - Tuning Q-learning hyperparameters (α, γ, ε) for convergence
